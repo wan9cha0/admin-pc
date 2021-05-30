@@ -1,12 +1,14 @@
 <template>
-    <div>关于</div>
+    <div>{{ pageName }}</div>
 </template>
 
 
 <script>
 export default {
     data() {
-        return {};
+        return {
+            pageName: "关于",
+        };
     },
 };
 </script>
